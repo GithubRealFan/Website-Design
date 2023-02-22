@@ -78,7 +78,7 @@ export default function FirstPage() {
                 {signIn ? <SignIn closePopup={() => setSignIn(false)} employees={employees} setIsAuthenticated={setIsAuthenticated} setUserNameNew={setUserName}/> : null}
                 {profile ? <Profile closePopup={() => setProfile(false)} profile={profile} employees={employees} setIsAuthenticated={setIsAuthenticated} setUserNameNew={setUserName} userName={userName}/> : null}
                 <p style={wordstyle1}>Welcome To My Website!{profile}</p>
-                <p style={contentStyle1}>Chris Lee</p>
+                <p style={contentStyle1}>Melvin Lang</p>
                 <p style={contentStyle2}>World Scaled Pro, Software & AI Engineer, Blockchain & Trading</p>
             </div>
             <div className={styles.headerstyle}>
